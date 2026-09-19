@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente e credenciais (NUNCA versionar)
+.env
+*.pem
+*.key
+credentials.json
+aws_credentials
+
+# Docker
+*.log
+
+# Dados locais (não versionamos dados, só código)
+data/raw/
+data/curated/
+*.csv
+*.parquet
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# Terraform (quando chegarmos nele)
+*.tfstate
+*.tfstate.*
+.terraform/
